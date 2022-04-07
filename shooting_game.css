@@ -1,0 +1,126 @@
+.window{
+    padding-left:150px;
+    height: 1200; width: 1300PX;
+   
+}
+
+.containerr{
+    
+    height: 50px; width:  1200px;
+    background-color:rgb(36, 1, 36) ;
+    color:white;
+    text-align: center;
+    font-size:large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-stretch: ultra-expanded;
+  
+}
+#congomsg1{
+    position: relative;
+    color: rgb(165, 15, 15);
+    visibility: hidden;
+}
+
+#congomsg2{
+    position: relative;
+    color: rgb(165, 15, 15);
+    visibility: hidden;
+}
+
+#congomsg3{
+    position: relative;
+    color: rgb(165, 15, 15);
+    visibility: hidden;
+}
+
+#r{
+    
+    position: relative;
+    right:0px;
+    bottom: 130px;
+    text-align:center; padding: 5px 5px 5px 5px;
+    
+}
+
+.imageContainer{
+    
+height: 400px; width: 1200px;
+    position:absolute;
+
+
+}
+
+#p1{
+
+    position: relative;
+    left: 0;
+
+
+}
+#p2{
+position: relative;
+left:600px;
+}
+#b1{
+
+    position:relative;
+    right: 310px;
+    bottom: 200px;
+    visibility:hidden;
+    
+   
+}
+#b2{
+    position: relative;
+    left: 130px;
+    bottom: 210px;
+    visibility: hidden;
+}
+
+.container2{
+
+    width: 1200px;
+   
+    position: relative;
+    top: 450PX;
+    position: absolute;
+}
+
+#nor{
+
+height: 2em;
+font-size: large;
+font-weight:800;
+ ;
+color: rgb(65, 6, 6);
+text-align: center;
+
+}
+
+.p1details{
+    position: relative;
+    background-color: rgb(105, 152, 190);
+    width: 300px; height: 200px;
+    bottom: 200px;
+}
+.p2details{
+    position: relative;
+    background-color: rgb(105, 152, 190);
+    width: 300px; height: 200px;
+    left:900px;
+    bottom: 525px;
+
+}
+
+#fire{
+
+    width: 150px; height: 50px;
+    background-color: rgb(17, 17, 89);
+    color: white;
+    font-weight: bold;
+    border-radius:5PX;
+    position: relative;
+    left: 530PX;
+    bottom: 350PX;
+}
+

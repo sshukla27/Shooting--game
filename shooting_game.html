@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Game</title>
+    <link rel="stylesheet" href="shooting_game.css">
+</head>
+
+
+
+<body>
+<div class="window">
+
+
+<div class ="containerr"> 
+<h1>Shooting - Game</h1>
+</div><br>
+
+
+
+<div class=" imageContainer">
+
+    <img id="p1" src="playerOne.jpg" height="300px" width="300px" alt="player1">
+    
+    <img id="p2" src="playerTwo.jpg" height="300px" width="300px" alt="player1">
+    <img id="b1" src="bb1.png" height="35px" width="80px" alt="bullet1">
+    <img id="b2" src="bb2.png" height="35px" width="80px" alt="bullet2">
+   
+</div >
+<br><br><br> 
+
+
+
+
+
+<div class="container2">
+    <div id="r">
+        <h1 id="congomsg1" >Player 1 is winner!</h1>
+        <h1 id="congomsg2">Player 1 is winner!</h1>
+        <h1 id="congomsg3">It's a tie!</h1>
+        <label  class="norl" style="color: black; background-color: rgb(17, 17, 89);
+        color: white;; font-size:large;">NO.OF ROUNDS</label><br>
+        <input  id="nor" type="number">
+    </div> 
+
+    
+
+
+<div class="p1details" > 
+    <label class="pt1" style="color: black; background-color:  rgb(129, 157, 185); text-align: center;"><h2>PLAYER-1</h2> </label><br>
+
+    <label id="p1count" style="color: black; font-size:large;">Bullet-Count</label> <input id="p1ic" style="text-align:center; font-weight: bolder;color: blue;"type="number" placeholder="0"> <br><br>
+
+    <label id="p1h" style="color:black; font-size:large;"">Health-Points</label> <input id="p1ih" style="text-align:center;color: blue;font-weight: bolder;" type="number" placeholder="100"><br><br>
+    <label  class="p1s" style="color: black; font-size:large;">Player1 Scores</label> <input id="p1is" style="text-align:center;color: blue;font-weight: bolder;" type="number"><br>    
+</div>
+ <br><br>
+
+
+
+
+ <button id="fire" Onclick="shoot();" > SHOOT</button> <br><br>
+
+ 
+
+
+<div class="p2details">
+    
+    <label id="pt2" style="color: rgb(26, 2, 55); background-color: rgb(129, 157, 185); text-align: center;"><h2>PLAYER-2</h2></label><br>
+    <label id="p2count" style="color: black; font-size:large;" >Bullet-Count </label> <input id="p2ic" style="text-align:center;color: blue;font-weight: bolder;"type="number" ><br><br>
+    <label  class="p2h" style="color: black; font-size:large;">Health-Points</label> <input id="p2ih" style="text-align:center;color: blue;font-weight: bolder;" type="number"><br><br>
+    <label  class="p2s" style="color: black; font-size:large;">Player2 Scores</label> <input id="p2is" style="text-align:center;color: blue;font-weight: bolder;" type="number"><br>
+    
+  
+</div>
+
+</div>
+</div>
+<script src="shooting_game.js"></script>
+</body>
+</html>
